@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: webapp-color
+spec:
+  containers:
+  - name: webapp-color
+    image: webapp-color
+    ports:
+      - containerPort: 8080
+    envFrom:
+      - configMapRef:
+        name: app-config
+       
+# This envFrom.ConfigMapRef.name is where you inject your config file into the POD,
+# this will get all variables. If only one variable is required from the config map 
+# you can add key to detail the specific variable you need.
+
+# env:
+# - name: APP_COLOR
+#   valueFrom:
+#     configMapKeyRef:
+#       name: app-config
+#       key: APP_COLOR
+       
