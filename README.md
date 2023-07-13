@@ -23,7 +23,7 @@
 ```
 <h3>
     
-[Multi Container Pods](https://github.com/EAS-Kalem/k8-learning/tree/main/Multi%20Container%20Pods) 
+[Multi Container Pods](https://github.com/EAS-Kalem/k8-learning/tree/main/Multi-Container%20Pods) 
 </h3>
 
 
@@ -31,10 +31,9 @@
 - Basics
 - Init Containers
 ```
-Multi Container Pods
 <h3>
 
-[Observability](https://github.com/EAS-Kalem/k8-learning/tree/main/Multi%20Container%20Pods)
+[Observability](https://github.com/EAS-Kalem/k8-learning/tree/main/Observability)
 </h3>
 
 ```
@@ -45,7 +44,7 @@ Multi Container Pods
 
 <h3>
     
-[Pod Design](https://github.com/EAS-Kalem/k8-learning/tree/main/Pod%20Design) 
+[Pod Design](https://github.com/EAS-Kalem/k8-learning/tree/main/POD%20Design) 
 </h3>
 
 ```
