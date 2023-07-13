@@ -1,11 +1,14 @@
-#  Resource Requirements
-Documenting my learning around Resource Requirements
+# Secrets
+Documenting my learning around Secrets
 <h2>Why?</h2>
-Resource requiremennts ensures that whenever a container is used it must have a specific amount of resources, this is detailed in pod-definition.yaml
+The benefit Secrets have over config maps is that secrets values are encoded and config maps values are stored in plain text format, secrets are generally used for more sensitive data
 <br><br>
-<h3>CPU</h3>
-<h3>Memory</h3>
-<h4>Imperative</h4>
+<h3><u>2 Phases Involved with Secrets</u></h3>
+- Create Secret <br>
+- Inject into pod
+<br><br>
+<h3><u>2 ways of creating a Secrets</u></h3>
+<h4><u>Imperative</u></h4>
 
 `kubectl create secret generic`
 <br>
@@ -22,7 +25,6 @@ e.g. `kubectl create secret generic my-secret --from-file=./app_secret.propertie
 
 
 <h4>Example config map</h4>
-
 ```yaml
 apiVersion: v1
 kind: Secret

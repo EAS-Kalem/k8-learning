@@ -13,5 +13,6 @@ spec:
         memory: "4Gi"
         cpu: 2
       limits:
-        memory:
+        memory: "7Gi"
+        cpu: 5
  
