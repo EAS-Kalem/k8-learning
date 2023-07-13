@@ -1,6 +1,6 @@
 # Observability
 <h4>Documenting my learning around Observability</h4>
-<br>
+
 <h2>Summary Of Topics</h2>
 
 <h3>

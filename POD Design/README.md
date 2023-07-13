@@ -1,6 +1,6 @@
 # POD Design
 <h4>Documenting my learning around POD Design</h4>
-<br>
+
 <h2>Summary Of Topics</h2>
 <h3>
     

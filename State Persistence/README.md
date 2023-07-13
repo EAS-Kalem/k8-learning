@@ -1,6 +1,6 @@
 # State Persistence
 <h4>Documenting my learning around State Persistence</h4>
-<br>
+
 <h2>Summary Of Topics</h2>
 <h3>
 

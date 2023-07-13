@@ -1,6 +1,6 @@
 # Configuration
 <h4>Documenting my learning around configuration.</h4>
-<br>
+
 <h2>Summary Of Topics</h2>
 <h3>
     
