@@ -37,6 +37,9 @@
 
 ```
 - Readiness Probe
+    - Exec Command
+    - HTTP Test
+    - TCP Test
 - Logging
 - Monitoring
 ```
