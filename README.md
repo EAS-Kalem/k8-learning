@@ -57,7 +57,7 @@
 
 <h3>
 
-[Services & Networking](https://github.com/EAS-Kalem/k8-learning/tree/main/Services%20&%20Networking) 
+[Services & Networking](https://github.com/EAS-Kalem/k8-learning/tree/main/Services%20and%20Networking) 
 
 </h3>
 
