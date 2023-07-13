@@ -7,12 +7,12 @@
 <h2>Summary Of Topics</h2>
 <h3>
     
-[Configuration](https://github.com/EAS-Kalem/k8-learning/tree/main/Configuration) 
+[Configuration](https://github.com/EAS-Kalem/k8-learning/tree/main/Configuration) ✅
 </h3>
 
 ```
 - Enviroment Variables
-    - Config Map
+    - Config Map 
     - Plain Key
     - Secrets
 - Resource Requirements
@@ -23,7 +23,7 @@
 ```
 <h3>
     
-[Multi Container Pods](https://github.com/EAS-Kalem/k8-learning/tree/main/Multi-Container%20Pods) 
+[Multi Container Pods](https://github.com/EAS-Kalem/k8-learning/tree/main/Multi-Container%20Pods) ✅
 </h3>
 
 
@@ -32,7 +32,7 @@
 ```
 <h3>
 
-[Observability](https://github.com/EAS-Kalem/k8-learning/tree/main/Observability)
+[Observability](https://github.com/EAS-Kalem/k8-learning/tree/main/Observability) ✅
 </h3>
 
 ```
