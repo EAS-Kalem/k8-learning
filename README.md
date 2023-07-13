@@ -6,8 +6,7 @@
 
 <h2>Summary Of Topics</h2>
 <h3>
-
-
+    
 [Configuration](https://github.com/EAS-Kalem/k8-learning/tree/main/Configuration%20Module) 
 </h3>
 
@@ -22,15 +21,21 @@
 - Taints and Tolerations
 - Node Affinity
 ```
+<h3>
+    
+[Multi Container Pods](https://github.com/EAS-Kalem/k8-learning/tree/main/Multi%20Container%20Pods) 
+</h3>
 
-<h3>Multi Container Pods</h3>
 
 ```
 - Basics
 - Init Containers
 ```
+Multi Container Pods
+<h3>
 
-<h3>Observability</h3>
+[Observability](https://github.com/EAS-Kalem/k8-learning/tree/main/Multi%20Container%20Pods)
+</h3>
 
 ```
 - Readiness Probe
@@ -38,7 +43,10 @@
 - Monitoring
 ```
 
-<h3>Pod Design</h3>
+<h3>
+    
+[Pod Design](https://github.com/EAS-Kalem/k8-learning/tree/main/Pod%20Design) 
+</h3>
 
 ```
 - Labels, Selectors and Annotations
@@ -48,7 +56,11 @@
 ```
 
 
-<h3>Services & Networking</h3>
+<h3>
+
+[Services & Networking](https://github.com/EAS-Kalem/k8-learning/tree/main/Services%20&%20Networking) 
+
+</h3>
 
 ```
 - Services
@@ -58,7 +70,11 @@
 ```
 
 
-<h3>State Persistence</h3>
+<h3>
+
+[State Persistence](https://github.com/EAS-Kalem/k8-learning/tree/main/State%20Persistence) 
+
+</h3>
 
 ```
 - Storage in Docker
@@ -67,4 +83,3 @@
 - Stateful Sets
 ```
 
-[Project explanation](path/to/explainer.md) 
