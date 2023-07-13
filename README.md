@@ -7,7 +7,7 @@
 <h2>Summary Of Topics</h2>
 <h3>
     
-[Configuration](https://github.com/EAS-Kalem/k8-learning/tree/main/Configuration%20Module) 
+[Configuration](https://github.com/EAS-Kalem/k8-learning/tree/main/Configuration) 
 </h3>
 
 ```
