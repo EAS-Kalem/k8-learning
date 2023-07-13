@@ -1,6 +1,4 @@
 # Config Map
-Documenting my learning around Config Maps
-
 <h2>Why?</h2>
 The benefit is that it is easier to manage enviroment data especialy when you have multiple pod_definition files
 <br><br>

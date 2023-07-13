@@ -1,5 +1,4 @@
 #  Resource Requirements
-Documenting my learning around Resource Requirements
 <h2>Why?</h2>
 Resource requiremennts ensures that whenever a container is used it must have a specific amount of resources, this is detailed in pod-definition.yaml
 <br>

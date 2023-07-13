@@ -1,9 +1,5 @@
-# Security contexts
-Documenting my learning around Enviroment variables
+# Service Accounts
 
-Kubernetes security can be set at pod or container level
-    <br>
-    <br>
 There are 2 types of accounts in kubernetes <br>
 - User  <br>
 - Service   <br>

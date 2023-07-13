@@ -1,7 +1,6 @@
 # Security contexts
-Documenting my learning around Enviroment variables
-
 Kubernetes security can be set at pod or container level
+<br>
 <br>
 <u>Pod Level</u>
 ```yaml

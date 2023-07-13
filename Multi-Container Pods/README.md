@@ -11,5 +11,4 @@
 
 ```
 - Basics
-- Init Containers
 ```

@@ -29,7 +29,6 @@
 
 ```
 - Basics
-- Init Containers
 ```
 <h3>
 

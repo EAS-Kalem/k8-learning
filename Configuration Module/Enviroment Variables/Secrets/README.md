@@ -1,5 +1,4 @@
 # Secrets
-Documenting my learning around Secrets
 <h2>Why?</h2>
 The benefit Secrets have over config maps is that secrets values are encoded and config maps values are stored in plain text format, secrets are generally used for more sensitive data
 <br><br>

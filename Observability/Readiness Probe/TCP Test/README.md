@@ -19,17 +19,6 @@ PodScheduled > Initialized > ContainersReady > Ready
 3. Exec command
     ( Run script inside the container to confirm app is running as it should)
 ```
-<br>
-Amount of time to wait before starting to probe for readiness 
-<br>
 
-`initialDelaySeconds: 10`
-<br>
-<br>
-How often to probe<br>
-`periodSeconds: 5`
-<br><br>
-Amount of times the probe will check for readiness before giving up, default is set to 5
-<br>
-`failiureThreshold: 8`
-<br> 
+1. HTTP TEST
+    
