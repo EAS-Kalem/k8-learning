@@ -5,7 +5,11 @@
 ![alt text](https://codefresh.io/wp-content/uploads/2017/02/Intro-to-Kubernetes-blog-b-2.png)<br>
 
 <h2>Summary Of Topics</h2>
-<h3>Configuration</h3>
+<h3>
+
+
+[Configuration](https://github.com/EAS-Kalem/k8-learning/tree/main/Configuration%20Module) 
+</h3>
 
 ```
 - Enviroment Variables
@@ -62,3 +66,5 @@
 - Persistent Volumes
 - Stateful Sets
 ```
+
+[Project explanation](path/to/explainer.md) 
