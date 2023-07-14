@@ -52,7 +52,6 @@
 
 ```
 - Labels, Selectors and Annotations
-- Rolling Updates and Rollbacks
 - Jobs
 - Chron Jobs
 ```
