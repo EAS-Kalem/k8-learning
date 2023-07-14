@@ -47,7 +47,7 @@
 
 <h3>
     
-[Pod Design](https://github.com/EAS-Kalem/k8-learning/tree/main/POD%20Design) 
+[Pod Design](https://github.com/EAS-Kalem/k8-learning/tree/main/POD%20Design) ✅
 </h3>
 
 ```
