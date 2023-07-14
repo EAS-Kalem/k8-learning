@@ -1,0 +1,17 @@
+apiVersion: batch/v1
+kind: ChronJob
+metadata:
+  name: reporting-chron-job
+spec:
+  schedule: "*/1 * * * *"
+  jobTemplate:
+    spec:
+      completions: 3
+      parallelisim: 3
+      template:
+        spec:
+          containers:
+            - name: math-add
+              image: ubuntu
+              
+          restartPolicy: Never

@@ -14,7 +14,7 @@ spec:
     metadata:
       labels:
         app: App1
-        function: Front-end
+        function: Fr
     spec:
       containers:
       - name: simple-webapp
