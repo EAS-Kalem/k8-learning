@@ -13,6 +13,7 @@
   - Exec Command
   - HTTP Test
   - TCP Test
+- Liveness Probe
 - Logging
 - Monitoring
 ```
