@@ -66,8 +66,6 @@
 ```
 - Services
 - Network Policies
-- Ingress
-- Chron Jobs
 ```
 
 
