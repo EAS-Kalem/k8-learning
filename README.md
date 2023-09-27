@@ -4,42 +4,34 @@ To create a Go function that clones a Git repository, you can use the go-git lib
 
 bash
 Copy code
-go get gopkg.in/src-d/go-git.v4
-Here's a simple Go function that clones a Git repository:
+const downloadRepo = async (username, repository, branch) => {
+    const url = `https://github.com/${username}/${repository}/archive/${branch}.zip`;
 
-go
-Copy code
-package main
+    try {
+        const response = await fetch(url);
 
-import (
-    "fmt"
-    "os"
+        if (!response.ok) {
+            throw new Error(`Failed to fetch repository: ${response.status} ${response.statusText}`);
+        }
 
-    "gopkg.in/src-d/go-git.v4"
-)
+        // Create a write stream to save the ZIP archive
+        const writeStream = fs.createWriteStream(`${repository}-${branch}.zip`);
 
-func CloneRepository(repositoryURL, destinationPath string) error {
-    // Clone the Git repository
-    _, err := git.PlainClone(destinationPath, false, &git.CloneOptions{
-        URL: repositoryURL,
-    })
-    
-    return err
-}
+        // Use the `pipeline` function to pipe the response body to the write stream
+        await promisify(pipeline)(response.body, writeStream);
 
-func main() {
-    // Replace these with your repository URL and destination path
-    repositoryURL := "https://github.com/yourusername/yourrepository.git"
-    destinationPath := "/path/to/destination"
-
-    err := CloneRepository(repositoryURL, destinationPath)
-    if err != nil {
-        fmt.Printf("Error cloning repository: %v\n", err)
-        os.Exit(1)
+        console.log(`Repository cloned successfully as ${repository}-${branch}.zip`);
+    } catch (error) {
+        console.error('Error cloning repository:', error);
     }
+};
 
-    fmt.Println("Repository cloned successfully!")
-}
+// Usage: Replace these values with your GitHub repository information
+const username = 'yourusername';
+const repository = 'yourrepository';
+const branch = 'main'; // Change to the desired branch
+
+downloadRepo(username, repository, branch);
 Make sure to replace repositoryURL with the URL of the Git repository you want to clone and destinationPath with the local path where you want to clone the repository.
 
 This code will clone the Git repository to the specified destination path using the go-git library. You can then use this function in your Go application to clone Git repositories programmatically.
