@@ -122,4 +122,4 @@ This code will clone the Git repository to the specified destination path using 
 - Persistent Volumes
 - Stateful Sets
 ```
-
+Enhance the configuration of the Onboarding/Sonarqube block to seamlessly execute across diverse environments via vault credentials. Introduce dynamism by incorporating a value obtained from the pipeline, reflecting the deployment context (such as prod/dev). This dynamic approach mirrors the successful implementation observed in the Onboarding/NexusRM block through the use of Vault.Credentials.Store.
